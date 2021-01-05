@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <!-- FAVICON -->
+    <link rel='icon' type='image/png' href='https://www.google.com/s2/favicons?domain=https://www.aetna.com/' />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/styles.css' />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Filters - Elements  |  JavaScript</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+                <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+                <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+                <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+            </div>
+            <div class="elemContainer">
+                <div class="filterDiv cars">BMW</div>
+                <div class="filterDiv colors fruits">Orange</div>
+                <div class="filterDiv cars">Volvo</div>
+                <div class="filterDiv colors">Red</div>
+                <div class="filterDiv cars animals">Mustang</div>
+                <div class="filterDiv colors">Blue</div>
+                <div class="filterDiv animals">Cat</div>
+                <div class="filterDiv animals">Dog</div>
+                <div class="filterDiv fruits">Melon</div>
+                <div class="filterDiv fruits animals">Kiwi</div>
+                <div class="filterDiv fruits">Banana</div>
+                <div class="filterDiv fruits">Lemon</div>
+                <div class="filterDiv animals">Cow</div>
+            </div>
+        </div>
+        <script src='./js/filter-elem-script.js'></script>
+    </body>
+</html>        
+      

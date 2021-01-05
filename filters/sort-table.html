@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <!-- FAVICON -->
+    <link rel='icon' type='image/png' href='https://www.google.com/s2/favicons?domain=https://www.aetna.com/' />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/styles.css' />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Sort - Table  |  JavaScript</title>
+    </head>
+    <body>
+        <div class="container">
+            <p><strong>Click the headers to sort the table.</strong></p>
+            <p>The first time you click, the sorting direction is ascending (A to Z).</p>
+            <p>Click again, and the sorting direction will be descending (Z to A):</p>
+
+            <table class="table table-bordered" id="myTable">
+                <thead class="thead-light ">
+                    <tr>
+                        <th scope="col" onclick="sortTable(0)">ID</th>
+                        <th scope="col" onclick="sortTable(1)">Name</th>
+                        <th scope="col" onclick="sortTable(2)">Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>Berglunds snabbkop</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>North/South</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Koniglich Essen</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Italy</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Paris specialites</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Island Trading</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Canada</td>
+                    </tr>
+                </tbody>               
+            </table>
+        </div>
+        <script src='./js/sort-table-script.js'></script>
+    </body>
+</html>        
+      
